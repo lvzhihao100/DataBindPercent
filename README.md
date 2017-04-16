@@ -1,6 +1,11 @@
-# DataBindPercent
+
+
+# DatabindPercent
+
   DatabindPercent 使用DataBinding 实现android 百分比布局，使用简单方便  
-  
+
+![]()
+
 百分比库使用的依赖
 ```
 dependencies {
@@ -66,10 +71,10 @@ android {
 DataBindingUtil.setContentView(this,R.layout.activity_main);//databinding的方式
 ```
 5. 根据上边的设置，你会发现button的宽度占据了屏幕的一半，
-这是因为我设置的默认满百分比是640，屏幕的宽度
-button的宽度是app:layout_width="@{320}"，占屏幕宽度的320/640,就是1/2,一半。
-当然这个屏幕宽度百分之百尺寸，你可以自己设置的
-在初始化的时候
+   这是因为我设置的默认满百分比是640，屏幕的宽度
+   button的宽度是app:layout_width="@{320}"，占屏幕宽度的320/640,就是1/2,一半。
+   当然这个屏幕宽度百分之百尺寸，你可以自己设置的
+   在初始化的时候
 ```
 public class BaseApplication extends Application {
     @Override
@@ -80,5 +85,44 @@ public class BaseApplication extends Application {
 }
 ```
 百分比的实现是以屏幕宽为基准的，屏幕高随意
+
+6. 可以使用百分比的有
+
+   ```
+   "android:layout_margin"
+   "android:padding"
+   "android:textSize"
+   "app:layout_width"
+   "app:layout_height"
+   "android:paddingLeft"
+   "android:paddingRight"
+   "android:paddingTop"
+   "android:paddingBottom"
+   "android:layout_marginLeft"
+   "android:layout_marginRight"
+   "android:layout_marginTop"
+   "android:layout_marginBottom"
+   ```
+
+   注意
+
+   ```
+   "app:layout_width"
+   "app:layout_height"
+   ```
+
+    代表控件的宽高，与
+
+   ```
+   "android:layout_width"
+   "android:layout_height"
+   ```
+
+   效果一样，但"android:layout_width" "android:layout_height"仍需设置
+
+   ```
+
+   ```
+
 
 
