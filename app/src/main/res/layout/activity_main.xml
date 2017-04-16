@@ -1,0 +1,31 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.eqdd.databindpercent.MainActivity">
+
+    <data class=".MainActivityCustom">
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_height="@{200}"
+            app:layout_width="@{320}"
+            android:textSize="@{30}"
+            android:text="DatabindPercent"
+            android:textAllCaps="false"
+            android:layout_margin="@{50}"
+            android:background="#ff0000"
+            />
+    </LinearLayout>
+
+</layout>
