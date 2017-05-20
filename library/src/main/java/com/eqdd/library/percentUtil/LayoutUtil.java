@@ -191,4 +191,19 @@ public class LayoutUtil {
             ((TextView) view).setMaxHeight(maxHeight);
         }
     }
+
+    @BindingAdapter({"android:minWidth"})
+    public static void setMinWidth(View view, int maxWidth) {
+        maxWidth = (maxWidth * WindowUtil.csw / WindowUtil.width);
+        if (view instanceof TextView) {
+            ((TextView) view).setMinWidth(maxWidth);
+        }
+    }
+    @BindingAdapter({"android:minHeight"})
+    public static void setMinHeight(View view, int maxHeight) {
+        maxHeight = (maxHeight * WindowUtil.csw / WindowUtil.width);
+        if (view instanceof TextView) {
+            ((TextView) view).setMinHeight(maxHeight);
+        }
+    }
 }
