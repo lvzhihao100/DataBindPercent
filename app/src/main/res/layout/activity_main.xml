@@ -13,16 +13,15 @@
         android:orientation="vertical">
 
 
-        <Button
+        <TextView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_height="@{200}"
-            app:layout_width="@{320}"
             android:textSize="@{30}"
-            android:text="DatabindPercent"
+          android:maxWidth="@{310}"
+            android:text="1231231231231231231231231231231231"
             android:textAllCaps="false"
-            android:layout_margin="@{50}"
             android:background="#ff0000"
             />
     </LinearLayout>

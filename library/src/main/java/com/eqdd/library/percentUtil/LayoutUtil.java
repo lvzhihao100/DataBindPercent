@@ -178,32 +178,24 @@ public class LayoutUtil {
     }
 
     @BindingAdapter({"android:maxWidth"})
-    public static void setMaxWidth(View view, int maxWidth) {
+    public static void setMaxWidth(TextView view, int maxWidth) {
         maxWidth = (maxWidth * WindowUtil.csw / WindowUtil.width);
-        if (view instanceof TextView) {
-            ((TextView) view).setMaxWidth(maxWidth);
-        }
+        view.setMaxWidth(maxWidth);
     }
     @BindingAdapter({"android:maxHeight"})
-    public static void setMaxHeight(View view, int maxHeight) {
+    public static void setMaxHeight(TextView view, int maxHeight) {
         maxHeight = (maxHeight * WindowUtil.csw / WindowUtil.width);
-        if (view instanceof TextView) {
-            ((TextView) view).setMaxHeight(maxHeight);
-        }
+        view.setMaxHeight(maxHeight);
     }
-
     @BindingAdapter({"android:minWidth"})
-    public static void setMinWidth(View view, int maxWidth) {
+    public static void setMinWidth(TextView view, int maxWidth) {
         maxWidth = (maxWidth * WindowUtil.csw / WindowUtil.width);
-        if (view instanceof TextView) {
-            ((TextView) view).setMinWidth(maxWidth);
-        }
-    }
+        view.setMinWidth(maxWidth);
+}
+
     @BindingAdapter({"android:minHeight"})
-    public static void setMinHeight(View view, int maxHeight) {
+    public static void setMinHeight(TextView view, int maxHeight) {
         maxHeight = (maxHeight * WindowUtil.csw / WindowUtil.width);
-        if (view instanceof TextView) {
-            ((TextView) view).setMinHeight(maxHeight);
-        }
+        view.setMinHeight(maxHeight);
     }
 }
