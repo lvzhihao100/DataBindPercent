@@ -1,4 +1,4 @@
-package com.eqdd.library;
+package com.eqdd.databind.percent;
 
 import org.junit.Test;
 

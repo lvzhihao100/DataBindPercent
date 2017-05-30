@@ -1,10 +1,9 @@
-package com.eqdd.library.percentUtil;
+package com.eqdd.databind.percent;
 
 import android.databinding.BindingAdapter;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**

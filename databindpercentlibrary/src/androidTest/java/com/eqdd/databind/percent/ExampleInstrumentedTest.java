@@ -1,4 +1,4 @@
-package com.eqdd.library;
+package com.eqdd.databind.percent;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.eqdd.library.test", appContext.getPackageName());
+        assertEquals("com.eqdd.databind.percent.test", appContext.getPackageName());
     }
 }

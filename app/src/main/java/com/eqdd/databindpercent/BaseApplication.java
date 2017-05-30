@@ -2,7 +2,7 @@ package com.eqdd.databindpercent;
 
 import android.app.Application;
 
-import com.eqdd.library.percentUtil.WindowUtil;
+import com.eqdd.databind.percent.WindowUtil;
 
 /**
  * Created by lvzhihao on 17-4-16.

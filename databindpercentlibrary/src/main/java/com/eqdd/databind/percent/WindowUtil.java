@@ -1,13 +1,8 @@
-package com.eqdd.library.percentUtil;
+package com.eqdd.databind.percent;
 
 import android.content.Context;
 import android.content.res.Resources;
 import android.util.DisplayMetrics;
-import android.view.View;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
 
 /**
  * Created by vzhihao on 2016/7/13.
