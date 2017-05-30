@@ -9,6 +9,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        com.eqdd.databindpercent.MainActivityCustom da=  DataBindingUtil.setContentView(this,R.layout.activity_main);
+        com.eqdd.databindpercent.MainActivityCustom da = DataBindingUtil.setContentView(this, R.layout.activity_main);
     }
 }

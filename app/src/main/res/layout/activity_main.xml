@@ -17,13 +17,12 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_height="@{200}"
-            android:textSize="@{30}"
-          android:maxWidth="@{310}"
+            android:background="#ff0000"
+            android:maxWidth="@{310}"
             android:text="1231231231231231231231231231231231"
             android:textAllCaps="false"
-            android:background="#ff0000"
-            />
+            android:textSize="@{30}"
+            app:layout_height="@{200}" />
     </LinearLayout>
 
 </layout>
